@@ -1,16 +1,15 @@
+import Landingpage from "./LandingPage/Landingpage"
 
 
 function App() {
 
 
   return (
-    <>
-    <p className='bg-amber-400 text-red-500 text-3xl'>
-      hello 
-    </p>
-    
-   
-    </>
+
+    <div>
+      <Landingpage/>
+    </div>
+  
   )
 }
 
