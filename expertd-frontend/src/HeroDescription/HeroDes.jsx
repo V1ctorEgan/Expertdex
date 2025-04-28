@@ -19,8 +19,8 @@ const HeroDes = () => {
 
 
             <div className='flex gap-8'>
-                <LoginButton style='bg-[#0037C6] text-center border-2 border-[#0037C6] px-23 py-4 rounded-lg'/>
-                <SignUpButton style='border-2 border-white  text-center px-23 py-4 rounded-lg'/>
+                <LoginButton style=' border-2 border-white text-center  px-23 py-4 rounded-lg'/>
+                <SignUpButton style='border-2 bg-[#0037C6]  border-[#0037C6]  text-center px-23 py-4 rounded-lg'/>
             </div>
         </div>
       
