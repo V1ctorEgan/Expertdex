@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Navbar from '../NavSelection/Navbar'
 import HeroDes from '../HeroDescription/HeroDes'
 import Section1 from '../Section/Section1'
 import Section2 from '../Section/Section2'
 import LandingDetails from '../LandingDetails/LandingDetails'
+import LandingGetStarted from '../LandingGetStarted/LandingGetStarted'
+import Subcribe from '../Subscribe/Subcribe'
+import Footer from '../Footer/Footer'
 
 const Landingpage = () => {
   return (
@@ -23,9 +26,25 @@ const Landingpage = () => {
             <Section2/>
         </div>
 
-        <div>
+        <div className='mx-32 my-36'>
             <LandingDetails/>
         </div>
+
+        <div >
+            <LandingGetStarted/>
+
+        </div>
+
+        <div >
+            <Subcribe/>
+        </div>
+
+
+        <div>
+            <Footer/>
+        </div>
+
+
       
 
 

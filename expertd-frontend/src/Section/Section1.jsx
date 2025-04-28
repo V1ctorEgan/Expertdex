@@ -11,7 +11,7 @@ const Section1 = () => {
             </p>
 
             <p className='text-3xl font-medium mt-10 text-justify'>
-            At Work-X, we are dedicated to bridging the gap between manufacturers and consumers. Our platform is designed to create seamless connections, ensuring that high-quality products reach the hands of those who need them. We believe in fostering trust, efficiency, and transparency in the marketplace.
+            At ExpertDex, we are dedicated to bridging the gap between manufacturers and consumers. Our platform is designed to create seamless connections, ensuring that high-quality products reach the hands of those who need them. We believe in fostering trust, efficiency, and transparency in the marketplace.
             </p>
         </div>
 
