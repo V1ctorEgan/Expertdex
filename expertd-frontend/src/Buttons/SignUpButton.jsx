@@ -6,7 +6,7 @@ const SignUpButton = ({style}) => {
 
         <div className='font-medium'>
             <p className={style}>
-                Sign Up
+               Get Started
             </p>
         </div>
       

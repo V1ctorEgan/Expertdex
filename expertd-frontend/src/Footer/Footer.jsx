@@ -2,23 +2,41 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-[#252D89] text-white ' >
+    <div className='bg-[#0073FF] text-white rounded-[64px] ' >
 
-        <div className='flex mx-32 justify-between py-24 px-52 border-b border-white'>
+        <div className='flex mx-32 justify-between py-24 border-b border-white'>
+
+            <div>
+
+            <div className='flex gap-2  '>
+            <div className=''>
+                <img src="../images/NavBarimages/expertlogo.png" alt="logo" className=' ' />
+
+            </div>
+            <div>
+                <p className='text-2xl font-normal'>ExpertDex</p>
+
+            </div>
+
+            </div>
+
+
+            </div>
+
+
+
+
             <div className='flex flex-col gap-2'>
-                <p className='font-extrabold text-xl'>About Us</p>
-                <p className='font-semibold text-xl'>Learn about ExpertDex</p>
-                <p className='font-semibold text-xl'>FAQs</p>
+                <p className='text-lg font-bold'>Quick Links</p>
+                <p className='font-normal text-base'>Home</p>
+                <p className='font-normal text-base'>About Us</p>
+                <p className='font-normal text-base'>Contact Us</p>
+                <p className='font-normal text-base'>FAQs</p>
             </div>
 
-            <div  className='flex flex-col gap-2'>
-                <p className='font-extrabold text-xl'>User</p>
-                <p className='font-semibold text-xl'>Login</p>
-                <p className='font-semibold text-xl'>Sign Up</p>
-            </div>
 
             <div className='grid gap-4 items-center'>
-                <p className='font-extrabold text-xl'>Contact Us</p>
+                <p className='font-extrabold text-xl'>Contact </p>
 
                 <div className='flex gap-5 items-center'>
                 <p>

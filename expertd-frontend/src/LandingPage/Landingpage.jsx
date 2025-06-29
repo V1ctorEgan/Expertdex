@@ -2,45 +2,80 @@ import React, { Suspense } from 'react'
 import Navbar from '../NavSelection/Navbar'
 import HeroDes from '../HeroDescription/HeroDes'
 import Section1 from '../Section/Section1'
-import Section2 from '../Section/Section2'
+import Section2 from '../Section/Reviews'
 import LandingDetails from '../LandingDetails/LandingDetails'
 import LandingGetStarted from '../LandingGetStarted/LandingGetStarted'
 import Subcribe from '../Subscribe/Subcribe'
 import Footer from '../Footer/Footer'
+import Stats from '../landingstats/stats'
+import Reviews from '../Section/Reviews'
+import SubscribeLetter from '../Subscribe/SubscribeLetter'
+
 
 const Landingpage = () => {
   return (
-    <div className='bg-[url(../images/LandingPageImages/landingPageImage.png)] h-screen w-screen bg-cover bg-no-repeat'>
+    <div >
 
-        <div>
+        <div className='bg-[url(/image/landingpage/exportlandingp.png)] bg-cover bg-center h-[100vh]   bg-no-repeat border '>
+        
+        <div className=''>
             <Navbar/>
         </div>
 
+       
+    <div className='flex flex-col'>
 
-        <div className='mx-32 my-48'>
+        <div className=' pt-[75px]'>
             <HeroDes/>
+
+          
         </div> 
 
-        <div className='mx-32  '>
-            <Section1/>
-            <Section2/>
+         <div className='flex justify-between text-white mx-[158px]  mt-34  items-center'>
+              <Stats stats='4.5K+' details='Vehicles Registered'/>
+              <Stats stats='200+' details='Industry Clients Served'/>
+              <Stats stats='98%' details='On-time delivery'/>
+           </div>
+
+     
+
+    </div>
+
+
+       
+
+       
+
         </div>
 
-        <div className='mx-32 my-36'>
+
+        <div className='px-[163px] py-10  '>
+            <Section1/>
+         
+        </div>
+
+        <div className='px-[163px] py-10 bg-[#0073FF] '>
             <LandingDetails/>
         </div>
 
-        <div >
-            <LandingGetStarted/>
+        <div className='px-[163px] py-10 bg-[#F3F3F3]'>
+            <Reviews/>
 
         </div>
 
-        <div >
+        <div>
+            <SubscribeLetter/>
+        </div>
+
+     
+
+        <div className='px-[163px] py-10 bg-[#F3F3F3]' >
+
             <Subcribe/>
         </div>
 
 
-        <div>
+        <div className='px-[163px] py-10 '>
             <Footer/>
         </div>
 

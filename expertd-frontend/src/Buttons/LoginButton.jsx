@@ -6,7 +6,7 @@ const LoginButton = ({style}) => {
 
         <div className='font-medium'>
             <p className={style} >
-                Login
+                Start as a driver
             </p>
         </div>
       
