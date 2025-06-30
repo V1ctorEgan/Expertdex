@@ -8,7 +8,7 @@ const HeroDes = () => {
     <div className='lg:mx-[158px] mx-[15.5px]   '>
     {/* <div className='mx-[158px]  pt-23  '> */}
 
-        <div className='w-3xl  text-white '>
+        <div className='  text-white '>
           <div className='leading-none'>
             <p className=' lg:text-[64px] text-[40px] font-semibold '>
               
@@ -29,7 +29,7 @@ const HeroDes = () => {
             </p>
 
 
-            <div className='flex lg:gap-8 items-center pt-[32px] gap-4 justify-center '>
+            <div className='flex lg:gap-8 items-center pt-[32px] gap-4  '>
                 <LoginButton style=' border-2 border-white text-center flex items-center justify-center w-42 h-15  lg:w-45 lg:h-15 rounded-[20px]'/>
                 <p className='border-2 bg-[#0037C6]  border-[#0037C6] flex items-center justify-center  text-center w-42 h-15 lg:w-45 lg:h-15 rounded-[20px]'>Find a vehicle</p>
                 

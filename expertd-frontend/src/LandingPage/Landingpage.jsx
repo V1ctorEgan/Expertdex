@@ -14,9 +14,9 @@ import SubscribeLetter from '../Subscribe/SubscribeLetter'
 
 const Landingpage = () => {
   return (
-    <div className='border' >
+    <div className='' >
 
-        <div className='bg-[url(/image/mainsector/mobilebg.png)] lg:bg-[url(/image/landingpage/exportlandingp.png)] bg-cover bg-center h-[100vh]   bg-no-repeat border '>
+        <div className='bg-[url(/image/mainsector/mobilebg.png)] lg:bg-[url(/image/landingpage/exportlandingp.png)] bg-cover bg-center lg:h-[100vh]   bg-no-repeat border '>
         
         <div className=''>
             <Navbar/>
@@ -31,7 +31,7 @@ const Landingpage = () => {
           
         </div> 
 
-         <div className='flex justify-between text-white lg:mx-[158px] mx-[15.5px] mt-34  items-center'>
+         <div className='flex justify-between text-white lg:mx-[158px] mx-[15.5px] mt-34 pb-7 lg:pb-0 items-center'>
               <Stats stats='4.5K+' details='Vehicles Registered'/>
               <Stats stats='200+' details='Industry Clients Served'/>
               <Stats stats='98%' details='On-time delivery'/>
@@ -63,7 +63,7 @@ const Landingpage = () => {
 
         </div>
 
-        <div className=''>
+        <div className='px-[17.5px]'>
             <SubscribeLetter/>
         </div>
 
