@@ -6,8 +6,8 @@ export default function Driver() {
 
         <div>
 
-            <div className='flex justify-end'>
-                <img src="/image/mainsector/driver.png" alt="client" />
+            <div className='lg:flex justify-end pt-4 lg:pt-0'>
+                <img src="/image/mainsector/Driverlogo.png" alt="client" />
             </div>
 
 
@@ -17,28 +17,28 @@ export default function Driver() {
 
             <div className='flex flex-col gap-5 pt-4 '>
             <div className=''>
-              <div className='flex gap-5 items-center '>
+              <div className='flex lg:gap-5 gap-2 lg:items-center  '>
                  <div className='w-14 h-14 '>
-                <p className='size-[55px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>1</p>
+                <p className='lg:size-[55px] size-[48px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>1</p>
 
                  </div>
-                <div className='w-91 '>
-                <p className='text-2xl font-medium'>Sign Up & List Your Vehicle</p>
-                <p className='text-base font-normal'>List your vehicle details, including type, capacity, and availability</p>
+                <div className='w-90 '>
+                <p className='lg:text-2xl text-xl font-medium '>Sign Up & List Your Vehicle</p>
+                <p className='text-base font-normal py-2'>List your vehicle details, including type, capacity, and availability</p>
 
                 </div>
               </div>
             </div>
 
               <div className='py-2'>
-              <div className='flex gap-5 items-center '>
+              <div className='flex lg:gap-5 gap-2 lg:items-center '>
                  <div className='w-14 h-14 '>
-                <p className='size-[55px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>2</p>
+                <p className='lg:size-[55px] size-[48px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>2</p>
 
                  </div>
                 <div className='w-90 '>
-                <p className='text-2xl font-medium'>Get Matched with Industrial Jobs</p>
-                <p className='text-base font-normal'>Accept jobs from a pool of request according to your vehicle type and availability</p>
+                <p className='lg:text-2xl text-xl font-medium'>Get Matched with Industrial Jobs</p>
+                <p className='text-base font-normal py-2'>Accept jobs from a pool of request according to your vehicle type and availability</p>
 
                 </div>
               </div>
@@ -46,14 +46,14 @@ export default function Driver() {
 
 
               <div className='py-2'>
-              <div className='flex gap-5 items-center '>
+              <div className='flex lg:gap-5 gap-2 lg:items-center'>
                  <div className='w-14 h-14 '>
-                <p className='size-[55px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>3</p>
+                <p className='lg:size-[55px] size-[48px] rounded-full flex items-center justify-center text-white bg-[#040404] text-xl'>3</p>
 
                  </div>
                 <div className='w-90 '>
-                <p className='text-2xl font-medium'>Earn by Completing Deliveries</p>
-                <p className='text-base font-normal'>Get paid quickly and reliably for every trip you complete</p>
+                <p className='lg:text-2xl text-xl font-medium'>Earn by Completing Deliveries</p>
+                <p className='text-base font-normal py-2'>Get paid quickly and reliably for every trip you complete</p>
 
                 </div>
               </div>

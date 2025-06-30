@@ -15,11 +15,11 @@ const Subcribe = () => {
 
           <div className='grid justify-center items-center'>
         <div className='grid justify-center items-center'>
-          <p className='text-[56px] font-bold'>Subscribe to Our Newsletter</p>
+          <p className='lg:text-[56px] text-[32px] font-bold text-center '>Subscribe to Our Newsletter</p>
         </div>
 
         <div className='my-3 '>
-          <p className='font-normal w-[945px] px-10 text-center'>We will send you updates on our best deals and offers</p>
+          <p className='font-normal lg:w-[945px] w-full lg:px-10 text-center'>We will send you updates on our best deals and offers</p>
         </div>
 
         </div>

@@ -8,13 +8,13 @@ const LandingDetails = () => {
         <div className='grid justify-center items-center text-white '>
 
           <div>
-            <p className='text-center  text-[56px] font-bold  '>
+            <p className='text-center text-[32px]  lg:text-[56px] font-bold  '>
              Why ExpertDex?
             </p>
 
 
           <div className='my-3 '>
-          <p className='font-normal w-[945px] px-10 text-center'>ExpertDex is built specifically for the complex demands of the manufacturing, oil, and gas industries. Whether you're transporting sensitive equipment or maximizing the value of your vehicle, our platform ensures secure, efficient, and reliable logistics</p>
+          <p className='font-normal lg:w-[945px] w-[399px] text-base  px-10 text-center'>ExpertDex is built specifically for the complex demands of the manufacturing, oil, and gas industries. Whether you're transporting sensitive equipment or maximizing the value of your vehicle, our platform ensures secure, efficient, and reliable logistics</p>
         </div>
 
           </div>
@@ -24,20 +24,20 @@ const LandingDetails = () => {
       
 
 
-        <div className='flex justify-center items-center gap-3 py-10'>
+        <div className='lg:flex justify-center items-center gap-3 grid  py-10'>
              {/* <div className='bg-white text-center rounded-2xl px-6 '> */}
-          <div className='bg-white w-70 h-53 text-center px-6 rounded-2xl grid'>
+          <div className='bg-white px-1 lg:w-70 lg:h-53 h-40 text-center lg:px-6 lg:rounded-2xl rounded-xl grid'>
 
-            <div className='flex justify-center items-center '>
-              <img src="/image/landingpage/exportlandingp.png" alt="" className='h-10 w-5' />
+            <div className='flex justify-center items-center py-2'>
+              <img src="/image/mainsector/truckcha.png" alt=""  />
             </div>
 
             <div className=''>
-              <p className='text-xl font-medium'>Specialized in Heavy & Industrial Logistics</p>
+              <p className='lg:text-xl text-lg font-medium'>Specialized in Heavy & Industrial Logistics</p>
             </div>
 
             <div className=''>
-              <p className='text-sm font-normal px-3'>We focus exclusively on transporting industrial goods, machinery, and equipment with precision.</p>
+              <p className='text-sm font-normal lg:px-3'>We focus exclusively on transporting industrial goods, machinery, and equipment with precision.</p>
 
             </div>
 
@@ -45,18 +45,18 @@ const LandingDetails = () => {
           </div>
 
              {/* <div className='bg-white  text-center rounded-2xl px-6 '> */}
-          <div className='bg-white w-70 h-53 text-center px-6 rounded-2xl grid'>
+          <div className='bg-white px-1 lg:w-70 lg:h-53 h-40 text-center lg:px-6 lg:rounded-2xl rounded-xl grid'>
 
-            <div className='flex justify-center items-center '>
-              <img src="/image/landingpage/exportlandingp.png" alt=""className='h-10 w-5'/>
+            <div className='flex justify-center items-center py-2 '>
+              <img src="/image/mainsector/sheildlogo.png" alt=""/>
             </div>
 
             <div className=''>
-              <p className='text-xl font-medium'>Safe, Verified Drivers and Vehicles</p>
+              <p className='lg:text-xl text-lg font-medium'>Safe, Verified Drivers and Vehicles</p>
             </div>
 
             <div className=''>
-              <p className='text-sm font-normal '>All drivers and vehicles go through strict verification and compliance checks to ensure safety and reliability on every trip.</p>
+              <p className='text-sm font-normal lg:px-3 '>All drivers and vehicles go through strict verification and compliance checks to ensure safety and reliability on every trip.</p>
 
             </div>
 
@@ -64,18 +64,18 @@ const LandingDetails = () => {
           </div>
 
              {/* <div className='bg-white text-center rounded-2xl px-6 '> */}
-          <div className='bg-white w-70 h-53 text-center px-6 rounded-2xl grid'>
+          <div className='bg-white px-1 lg:w-70 lg:h-53 h-40 text-center lg:px-6 lg:rounded-2xl rounded-xl grid'>
 
-            <div className='flex justify-center items-center '>
-              <img src="/image/landingpage/exportlandingp.png" alt="" className='h-10 w-5' />
+            <div className='flex justify-center items-center py-2 '>
+              <img src="/image/mainsector/antenna.png" alt=""  />
             </div>
 
             <div className=''>
-              <p className='text-xl font-medium'>Real-Time Tracking and  Communication</p>
+              <p className='lg:text-xl text-lg font-medium'>Real-Time Tracking and  Communication</p>
             </div>
 
             <div className=''>
-              <p className='text-sm font-normal px-3'>Track your deliveries live and stay informed with updates every step of the way. No guessing, no blind spots.</p>
+              <p className='text-sm font-normal lg:px-3 '>Track your deliveries live and stay informed with updates every step of the way. No guessing, no blind spots.</p>
 
             </div>
 
@@ -84,18 +84,18 @@ const LandingDetails = () => {
 
 
              {/* <div className='bg-white text-center rounded-2xl px-6 '> */}
-          <div className='bg-white w-70 h-53 grid text-center px-6 rounded-2xl'>
+          <div className='bg-white px-1 lg:w-70 lg:h-53 h-40 text-center lg:px-6 lg:rounded-2xl rounded-xl grid'>
 
-            <div className='flex justify-center items-center '>
-              <img src="/image/landingpage/exportlandingp.png" alt="" className='h-10 w-5' />
+            <div className='flex justify-center items-center py-2'>
+              <img src="/image/mainsector/suitcase.png" alt=""  />
             </div>
 
             <div className=''>
-              <p className='text-xl font-medium'>Built for Both Businesses & Drivers</p>
+              <p className='lg:text-xl text-lg font-medium'>Built for Both Businesses & Drivers</p>
             </div>
 
             <div className=''>
-              <p className='text-sm font-normal '>Whether you’re booking transport or earning with your vehicle, ExpertDex offers seamless tools for both sides of the logistics journey.</p>
+              <p className='text-sm font-normal lg:px-3  '>Whether you’re booking transport or earning with your vehicle, ExpertDex offers seamless tools for both sides of the logistics journey.</p>
 
             </div>
 
@@ -107,7 +107,7 @@ const LandingDetails = () => {
         </div>
 
         <div className='flex justify-center  '>
-          <p className='flex w-45 h-15 border rounded-2xl border-white justify-center text-base font-normal text-white items-center'>Get Started</p>
+          <p className='flex lg:w-45 lg:h-15 w-40 h-13 border rounded-2xl border-white justify-center text-base font-normal text-white items-center'>Get Started</p>
         </div>
        
 

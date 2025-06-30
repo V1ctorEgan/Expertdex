@@ -6,9 +6,9 @@ export default function Stats({stats,details}) {
 
         <div className=''>
 
-            <div className='grid justify-center items-center'>
-            <p className='text-[56px] font-bold'>{stats}</p>
-            <p className='text-sm font-normal'>{details}</p>
+            <div className='grid justify-center text-center  items-center'>
+            <p className='text-[32px] lg:text-[56px] font-bold'>{stats}</p>
+            <p className='lg:text-sm text-xs font-normal w-23 lg:w-full px-2'>{details}</p>
 
             </div>
 
