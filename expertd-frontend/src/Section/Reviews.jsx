@@ -35,15 +35,15 @@ const Reviews = () => {
 
               <div className='min-w-87 h-42 grid px-4  py-2 bg-white'>
             <div>
-              <p>“We needed to move a 2-ton pump urgently — ExpertDex found us a driver within 90 minutes. Saved us hours.”</p>
+              <p>“I got matched with consistent deliveries for construction sites. It’s become my main income source.”</p>
             </div>
 
             <div>
             <div>
-              <p>John Cris</p>
+              <p>Fatima B</p>
             </div>
             <div>
-              <p>Logistics Coordinator, Oilfield Services Co.</p>
+              <p>Flatbed Truck Owner</p>
             </div>
 
             </div>
@@ -52,15 +52,15 @@ const Reviews = () => {
 
               <div className='min-w-87 h-42 grid px-4 py-2 w bg-white'>
             <div>
-              <p>“We needed to move a 2-ton pump urgently — ExpertDex found us a driver within 90 minutes. Saved us hours.”</p>
+              <p>“I got matched with consistent deliveries for construction sites. It’s become my main income source.”</p>
             </div>
 
             <div>
             <div>
-              <p>John Cris</p>
+              <p>jonhson d </p>
             </div>
             <div>
-              <p>Logistics Coordinator, Oilfield Services Co.</p>
+              <p>Flatbed Truck Owner</p>
             </div>
 
             </div>
@@ -73,15 +73,15 @@ const Reviews = () => {
             <div className=' flex lg:gap-12 gap-7 justify-center  '>
               <div className='w-87 h-42 grid px-4 py-2 lg:py-0  bg-white'>
             <div>
-              <p>“We needed to move a 2-ton pump urgently — ExpertDex found us a driver within 90 minutes. Saved us hours.”</p>
+              <p>“I got matched with consistent deliveries for construction sites. It’s become my main income source.”</p>
             </div>
 
             <div>
             <div>
-              <p>John Cris</p>
+              <p>Eliza</p>
             </div>
             <div>
-              <p>Logistics Coordinator, Oilfield Services Co.</p>
+              <p>Logistics Coordinator</p>
             </div>
 
             </div>

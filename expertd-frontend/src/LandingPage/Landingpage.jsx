@@ -25,7 +25,7 @@ const Landingpage = () => {
        
     <div className='flex flex-col'>
 
-        <div className=' pt-[75px]'>
+        <div className=' lg:pt-[75px] pt-[60px]'>
             <HeroDes/>
 
           
@@ -63,7 +63,7 @@ const Landingpage = () => {
 
         </div>
 
-        <div className='px-[17.5px]'>
+        <div className=''>
             <SubscribeLetter/>
         </div>
 

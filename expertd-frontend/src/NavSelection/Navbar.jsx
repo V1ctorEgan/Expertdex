@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LoginButton from '../Buttons/LoginButton'
 import SignUpButton from '../Buttons/SignUpButton'
 
 const Navbar = () => {
+
+    let [show , setShow ] = useState(false)
+
+    let showmenubar = ()=>{
+        setShow(!show)
+    }
+
+
   return (
     <div className='text-white w-full  '>
 
@@ -42,7 +50,7 @@ const Navbar = () => {
             </div>
 
             <div className='lg:hidden'>
-                <img src="/image/mainsector/meunbar.png" alt="" />
+                <img src="/image/mainsector/meunbar.png" alt="" onClick={showmenubar} />
             </div>
 
 
@@ -50,6 +58,36 @@ const Navbar = () => {
 
 
         </div>
+
+        {show &&
+        
+        
+  
+        <div className='bg-white w-full h-fit absolute grid py-4 transition-opacity ease-in-out duration-500 '>
+
+            <div className='grid text-black py-3 gap-4 justify-center text-center'>
+                <p className='text-base font-medium hover:border-b border-black hover:bg-black/5'>Home</p>
+                <p className='text-base font-medium  hover:border-b border-black'>About Us </p>
+                <p className='text-base font-medium  hover:border-b border-black'>Contact Us</p>
+                <p className='text-base font-medium  hover:border-b border-black'>FAQs</p>
+            </div>
+
+            <div className='mx-10'>
+
+                <p className='text-white bg-[#0073FF] w-full text-center py-2 hover:bg-[#0073FF]/90 hover:scale-110 rounded-xl'>Get Started</p>
+
+            </div>
+
+
+            
+    
+
+        </div>
+        
+        
+        }
+
+
 
 
 
